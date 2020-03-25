@@ -1,0 +1,11 @@
+form {
+    display: flex;
+    margin-bottom: 2rem;
+}
+[type="text"],
+h1 {
+    color: #222;
+}
+.giveInput{
+    size:32px;
+}

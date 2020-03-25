@@ -1,0 +1,42 @@
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 4px 4px 4px 4px;
+  width:500px;
+  margin-bottom: 0.5rem;
+  margin-right:100px;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+li span {
+  display: inline-block;
+  padding: .5rem;
+  width: 330px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+li span:hover {
+  background: rgba(179, 215, 255, 0.52);
+}
+
+li span:focus {
+  outline: 0;
+  border: 2px solid #007bff;
+  background: rgba(179, 207, 255, 0.52)
+}
+.non-editable{
+  text-decoration: line-through;
+}
+check{
+  text-decoration: line-through;
+}
